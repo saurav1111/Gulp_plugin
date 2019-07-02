@@ -1,0 +1,25 @@
+{
+  "name": "remove-import-scss",
+  "version": "1.0.0",
+  "description": "This Gulp plugin removes string sequences matching - import \"fileneame.scss\" ; - from the files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage" : "nyc mocha"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "Saurav Jha",
+  "license": "MIT",
+  "dependencies": {
+    "plugin-error": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "sinon": "^7.3.2",
+    "vinyl": "^2.2.0"
+  }
+}
